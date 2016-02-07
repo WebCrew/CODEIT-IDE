@@ -3,11 +3,15 @@
     <img src="http://palareas.de/CODEIT/themes/default/images/CODEIT_logo.png" alt="CODEIT IDE logo"
          title="CODEIT 1.0 compliant" align="right" />
 </a>
-[![Build Status](https://travis-ci.org/petkaantonov/bluebird.svg?branch=master)
-[![coverage-99%](http://img.shields.io/badge/coverage-98%-brightgreen.svg?style=flat)]
 
-**Want a demo?** Visit [CODEIT IDE](http://palareas.de/CODEIT/index_EN.php?)and use the following login date:
+
+**Want a demo?** 
+Visit [CODEIT IDE]  (http://palareas.de/CODEIT/index_EN.php?)
+
+and use the following login date:
+
 Login Name: Demo
+
 Login P-Word: Demo
 
 # INFORMATION
