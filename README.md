@@ -5,7 +5,7 @@
 </a>
 
 
-**Want a demo?** 
+**Want see a demo?** 
 Visit [CODEIT IDE]  (http://palareas.de/CODEIT/index_EN.php?)
 
 and use the following login date:
