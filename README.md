@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-<a href="http://web-crew.org/">
-    <img src="http://palareas.de/CODEIT/themes/default/images/CODEIT_logo.png" alt="CODEIT IDE logo"
-         title="CODEIT 1.0 compliant" align="right" />
-</a>
-
-=======
 
 <a href="http://web-crew.org/">
     <img src="http://palareas.de/CODEIT/themes/default/images/CODEIT_logo.png" alt="CODEIT IDE logo"
          title="CODEIT 1.0 compliant" align="right" />
 </a>
 
->>>>>>> origin/master
 # INFORMATION
 
 CODEIT is a simple IDE to handle Javascript, HTML, PHP , CSS, XML, LESS, SQL, MD and allows you to develop HTML5 applications directly online in Your browser (best use with Google Chrome).
@@ -79,8 +71,4 @@ The founder of the original software XOS and copyrightholder from
 
 Please note that some subdirectories of the distribution
 includes code files released under different licenses.
-<<<<<<< HEAD
-=======
 
-
->>>>>>> origin/master
