@@ -1,0 +1,314 @@
+html{ margin:0; height:100%;}  
+a{text-decoration: none;}
+a:link    {text-decoration: none; color: #000;}
+a:visited {text-decoration: none; color: #000;}
+a:hover   { color: #000;}
+
+ul,li {margin: 0;padding: 0; list-style:none; display: block; }
+
+body {
+	margin:0px; padding:0px; 
+	 -webkit-touch-callout: none; -webkit-text-size-adjust: none;  -webkit-user-select: none ; user-select: none; -moz-user-select: none;  
+	width:100%; height:100%; overflow: hidden;
+	background-color:#313131;
+/*
+	background-color: white;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgb(235, 235, 235)));
+    background-image: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(235, 235, 235) );
+*/
+
+    font: 12px  'Lucida Grande',  Verdana, sans-serif;  
+}
+
+
+/* WINDOW */
+.win {
+	cursor: default;
+    background-color:rgb(235, 235, 235);
+	position:absolute;
+  	-webkit-box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+	-moz-box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+	box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+	-webkit-border-radius:4px;
+  	-moz-border-radius:4px;
+	border-radius:4px;  	
+  	border-color:#ccc;
+  	border-width:1px;
+    border-style: solid;
+}
+
+
+.win_head {
+	position:absolute; top:0px; left:0px; height:25px;  width:100%;  /*background-color:black; */   
+  	-webkit-border-top-left-radius:4px;  -webkit-border-top-right-radius:4px;
+	-moz-border-top-left-radius:4px;  -moz-border-top-right-radius:4px;
+  	border-top-left-radius:4px; border-top-right-radius:4px;
+  	background-image:url(images/window/winHead_bkg.png);
+  	background-size:auto 25px;
+ }
+
+.win_title {
+	width:100%;
+	text-align: center;
+	line-height: 25px;
+	-webkit-user-select: none;
+    text-decoration: none;
+    color: #333;
+     /* text-shadow: 0px -1px 0px #000000; */  
+    font-size: 10px; 	
+}
+ 
+.win_close_button { 
+	background-image:url(images/window/closeWin_button.png);
+	position:absolute;
+	top:2px;
+	left:4px;
+	width: 20px;
+	height: 20px;
+}
+
+.win_collapse_button { 
+	background-image:url(images/window/collapseWin_button.png);
+	position:absolute;
+	top:2px;
+	right:4px;
+	width: 20px;
+	height: 20px;
+}
+
+
+.win_resize_button { 
+	background-image:url(images/window/resizeWin_button.png);
+	position:absolute;
+	right:0px;
+	bottom:0px;	
+	width: 20px;
+	height: 20px;
+	cursor: nwse-resize;
+}
+
+.win_content { 
+  	position:absolute; top:25px; left:4px; bottom:4px; right:4px; overflow: hidden;
+	-webkit-border-bottom-left-radius:3px;  -webkit-border-bottom-right-radius:3px;
+	-moz-border-bottom-left-radius:3px;  -moz-border-bottom-right-radius:3px;
+  	border-bottom-left-radius:3px; border-bottom-right-radius:3px;
+ }
+
+
+
+/* POPUP MENU */
+.panel{	
+	position:absolute;
+	width: auto; 
+	-webkit-border-bottom-left-radius:3px;  -webkit-border-bottom-right-radius:3px;
+	-moz-border-bottom-left-radius:3px;  -moz-border-bottom-right-radius:3px;
+  	border-bottom-left-radius:3px; border-bottom-right-radius:3px;
+	-webkit-box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+	-moz-box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+	box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+
+    padding: 10px; 
+   	background-color: rgb(33,33,33);
+   	background-image:url(images/toolbar_bkg.png); background-repeat:repeat-x; background-size: 100% 110%;	
+ }
+.popupMenu {  z-index: 2000;   display:none;  top:100%;  }
+.popupMenuItem {  color:#ddd; white-space:nowrap;	  min-width:120px;  height:26px; background-position: center left; 	background-repeat: no-repeat;    	padding-left: 20px;  padding-right: 20px; 	line-height: 26px;   	   	cursor:pointer;   }   
+.popupMenuItem:hover{  color:#010101;   background-color:rgba(255,255,255,.9); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+
+
+
+
+/* TABBAR */
+.tabBar{    display: block;  overflow: hidden;  width:90%;   height: 30px; white-space: nowrap;  background-color:#12121f;  color:white; font-size:10px; font-weight:bold; background-image:url(images/toolbar_bkg.png); background-repeat:repeat-x; }
+.tabBar>li{ 
+position:relative; display: inline-block; height:30px; margin-top: 0px;
+line-height: 28px;
+border-right:#61616f; border-right-style: solid; border-right-width: 1px;
+ min-width: 100px; cursor:default; width:10%; overflow: hidden; padding: 0 10px 0 4px; margin-right: 0px;
+-webkit-border-top-left-radius:3px;  -webkit-border-top-right-radius:3px;
+	-moz-border-top-left-radius:3px;  -moz-border-top-right-radius:3px;
+  	border-top-left-radius:3px; border-top-right-radius:3px;
+  	background-color:rgba(19,20,31,.4);
+ }
+.tabBar>li>a{ display: block; position: absolute; left:4px; top:6px; width: 16px; height: 16px;   background-image:url(images/closeSavedFile_button.png); background-repeat: no-repeat; background-position: center center ; }
+.tabBar>li>div{ display: inline-block; margin-left: 20px; height:26px; width: 90%;  min-width: 80px; /* line-height: 26px; */ overflow: hidden; text-overflow: ellipsis; } 
+
+.tabBar>li.savedDoc>a{  background-image:url(images/closeSavedFile_button.png);  }
+.tabBar>li.unsavedDoc>a{  background-image:url(images/closeUnsavedFile_button.png);  }
+
+.tabBar>li.unselectedTab{ background-color:none; }
+.tabBar>li.unselectedTab:hover{  background-color:rgba(20,20,29,.5); }
+.tabBar>li.selectedTab{ background-color:#141414;  }
+
+
+/* TREEVIEW */
+.treeView { padding: 10px;  }
+.treeView>ul ul{ display:none; }
+.treeView li { color:#EDEDED; cursor: pointer;  margin:0;  line-height: 18px; white-space: nowrap; font-size: 10px; text-align:left;  } 
+.treeView li .inputNodeName{background: none; border: none; color:white; font-size: 10px; width:200px; } 
+.treeView li>a { display:inline-block; width: 18px; height: 16px; background-repeat: no-repeat; background-image:none; }
+.treeView li>div {display:inline-block; background-image:url(images/doc_icon.png);  background-repeat: no-repeat; padding-left: 24px;  }
+.treeView li>ul { display:block; margin-left: 18px;}
+
+.treeView li.unselectedNode{ color:#ddd;}
+.treeView li.unselectedNode:hover { color:#FFFFFF;}
+.treeView li.selectedNode{  color: #00F8FF; }
+.treeView li.collapsedNode>a{  background-image:url(images/arrow_state_normal.png); }
+.treeView li.expandedNode>a{   background-image:url(images/arrow_state_expanded.png);  }
+.treeView li.dragOverNode>div{ color:#FF0088;}
+
+/* TREEVIEW files nodes */
+.treeViewItemIcon_hd{  background-image:url(images/fileIcons/hd.png) !important; }
+.treeViewItemIcon_basket{  background-image:url(images/fileIcons/basket.png) !important; }
+.treeViewItemIcon_dir{  background-image:url(images/fileIcons/dir.png) !important; }
+.treeViewItemIcon_txt{  background-image:url(images/fileIcons/txt.png) !important; }
+.treeViewItemIcon_css{  background-image:url(images/fileIcons/css.png) !important; }
+.treeViewItemIcon_htm{  background-image:url(images/fileIcons/html.png) !important; }
+.treeViewItemIcon_html{  background-image:url(images/fileIcons/html.png) !important; }
+.treeViewItemIcon_js{  background-image:url(images/fileIcons/js.png) !important; }
+.treeViewItemIcon_php{  background-image:url(images/fileIcons/php.png) !important; }
+.treeViewItemIcon_xml{  background-image:url(images/fileIcons/xml.png) !important; }
+.treeViewItemIcon_png{  background-image:url(images/fileIcons/png.png) !important; }
+.treeViewItemIcon_gif{  background-image:url(images/fileIcons/gif.png) !important; }
+.treeViewItemIcon_jpg{  background-image:url(images/fileIcons/jpg.png) !important; }
+.treeViewItemIcon_jpeg{  background-image:url(images/fileIcons/jpg.png) !important; }
+ 
+
+/* COLUMNS */
+.columnsContainer{ position:absolute;  top:0px; left:0px; right:0px; bottom:0px; min-width: 640px;   }
+.column{
+position:absolute;
+height:100%;
+box-sizing:border-box;
+-moz-box-sizing:border-box; 
+-webkit-box-sizing:border-box; 
+border-right: rgba(19,20,31,.5); border-right-style: dashed; border-right-width: 1px;
+}
+/*
+.column{
+float:left;
+position:relative;
+height:100%;
+box-sizing:border-box;
+-moz-box-sizing:border-box; 
+-webkit-box-sizing:border-box; 
+border-right:gray; border-right-style: solid; border-right-width: 1px;
+}
+*/
+
+/* WIDGET */
+.widget{  position:absolute;  width:100%;    height:100%; }
+.widget>.header{  position:absolute; left:0px; top:0px; right:0px; height:30px; background-color:rgb(33, 33, 39); background-image:url(images/toolbar_bkg.png); background-repeat:repeat-x;  line-height: 30px;    color:white; font-size:12px; font-weight:bold; }
+.widget>.header>.title{  }
+.widget>.header>.toolBar{  position:absolute; right:0px; top:0px; height:30px;  }
+.widget>.view{  position:absolute; top:30px; left:0px; right:0px; bottom:0px; color:white; overflow: scroll; overflow-x: auto;  overflow-y:auto;  -webkit-overflow-scrolling:touch;  }
+.widget .collapsedWidgetButton>a{ background-image:url(images/arrow_state_collapsed.png); }
+.widget .expandedWidgetButton>a{ background-image:url(images/arrow_state_expanded.png); }
+
+
+
+/* TOOLBAR */
+.toolBar{ position:absolute;  }
+.toolBar>li  {  float:left;    position: relative; width:30px; height:30px; background-position: center center; background-repeat: no-repeat; cursor:pointer; }
+.toolBar>li>a  { display: block;  width:30px; height:30px; background-position: center center; background-repeat: no-repeat; }
+.toolBar>li:hover>ul {  display:block;  visibility:visible;  } 
+.toolBar>li.unselectedToolButton{ background: none; }
+.toolBar>li.unselectedToolButton:hover{ background-color:rgba(33,33,39,.5);}
+/*.toolBar>li.selectedToolButton{ background-image:url(images/toolButtonSelected_bkg.png);   }*/
+
+
+
+.aboutPanel
+{ 
+  position:absolute; display:block;
+  left:50%; top:50%;
+  width:350px; height:160px;
+  margin-left:-175px; margin-top:-100px;
+  background-color:rgb(235, 235, 235);
+  background-size: 100% 100%;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+	border-radius:4px;
+ 	-webkit-box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+	-moz-box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+	box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+  z-index: 10000;
+}
+
+			
+.applicationLogo
+{ 
+	position:absolute; 
+	display:block;
+	left:75px; top:20px;
+	width:200px; height:90px;
+	background-image:url(images/CODEIT_logo.png);
+	background-repeat: no-repeat;
+}
+
+.aboutPanel .creditsInfo
+{ 
+	position:absolute; display:block;
+	left:50%; top:50%;
+	width:300px; height:20px;
+  	margin-left:-150px; margin-top:30px;
+	font-size: 9px;
+	text-align:center;
+	line-height: 13px;
+	color: #707070;
+}
+
+.aboutPanel .versionInfo
+{ 
+	position:absolute; display:block;
+	right:20px; top:10px;
+	width:100px; height:20px;
+	font-size: 9px;
+	text-align:right;
+	line-height: 13px;
+	color: #707070;
+}
+
+
+.loginPanel 
+{ 
+  position:absolute; display:block;
+  left:50%; top:50%;
+  width:430px; height:130px;
+  margin-left:-215px; margin-top:-65px;
+  background-color:rgb(235, 235, 235);
+  background-size: 100% 100%;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+	border-radius:4px;
+  	-webkit-box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+	-moz-box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+	box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+  z-index: 10000;
+}
+
+
+
+#LOGO { font-size: 18px; position:absolute; bottom:16px; right:20px;  height:22px; }
+#UPLOADING_BAR { position:absolute; bottom:10px; left:10px; width:88%;  display:none; }
+#FILE_BROWSER_PANEL .header .title{ width: 60px; height: 30px; margin-left: 10px; background-image:url(images/CODEIT_headerLogo.png); background-repeat: no-repeat; }
+
+/* TOOLS BUTTONS */
+#INFO_MENU_toolButton>a{ background-image:url(images/info_button.png); }
+#EDIT_MENU_toolButton>a{ background-image:url(images/actions_button.png); }
+#LOADING_toolButton { display: none;  background-image:url(images/server_status.gif); }
+#CREATE_FILE_toolButton>a {  background-image:url(images/add_button.png); }
+#SAVE_DOCUMENT_toolButton>a {  background-image:url(images/save_button.png); }
+#EXECUTE_FILE_toolButton>a {  background-image:url(images/play_button.png); }
+
+/* CODE EDITOR VIEW */
+.widget .codeMirroView {position:absolute; top:30px; left:0px; right:0px; bottom:0px; background-color: #313131; }
+.CodeMirror  {display: block; width: 100%;  height: auto;  -webkit-overflow-scrolling:touch; color:black; } 
+
+/* Windows */
+.message_win{display:none;  top:300px; left:100px; width:280px; height:240px; }
+.message_win textarea {position:absolute; resize: none; outline: none; padding:0; background:white; color:black; display:block;  width:100%; height:100%; border:none;}
+
+
+
+
