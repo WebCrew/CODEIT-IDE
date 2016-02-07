@@ -42,7 +42,7 @@ Andreas Holzer
 
 ## LICENSE
 
-Copyright (C) 2014/2016 by CODEIT / WebCrew - Andreas Holzer, web-crew.org
+Copyright (C) 2014/2016 by CODEIT / Andreas Holzer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy 
 of this software and associated documentation files (the "Software"), to deal 
