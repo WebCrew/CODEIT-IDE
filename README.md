@@ -12,7 +12,7 @@ Thanks to the Codemirror library developed by Marijn Haverbeke (codemirror.net)
 we have created an online IDE with everything you need for the development.  
 
 **Want see a demo?** 
-Visit [CODEIT IDE]  (http://palareas.de/CODEIT/index_EN.php?)
+Visit [CODEIT IDE]  (http://web-crew.org/CODEIT/index_EN.php?)
 
 Login Name: Demo
 
