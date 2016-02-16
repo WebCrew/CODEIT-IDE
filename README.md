@@ -1,6 +1,6 @@
 
 <a href="http://web-crew.org/">
-    <img src="http://palareas.de/CODEIT/themes/default/images/CODEIT_logo.png" alt="CODEIT IDE logo"
+    <img src="http://web-crew.org/CODEIT/themes/default/images/CODEIT_logo.png" alt="CODEIT IDE logo"
          title="CODEIT 1.0 compliant" align="right" />
 </a>
 
