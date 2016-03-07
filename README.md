@@ -21,8 +21,7 @@ Login P-Word: Demo
 ## REQUIREMENTS
 
 CODEIT is compatible with browsers: Chrome, Safari, Firefox, Opera.
-Some features such as upload files via "drag and drop" from your computer to CODEIT File Browser, are only available for Chrome. For all other browsers You can use the default file upload.
-The server portion of CODEIT was built with PHP 5.3.0. 
+Some features such as upload files via "drag and drop" from your computer to CODEIT File Browser, are only available for Chrome. The server portion of CODEIT was built with PHP 5.3.0. 
 
 ## INSTALLATION AND OTHER INFOS
 
@@ -30,6 +29,8 @@ Red the documentation in CODEIT/documentation/docu.html
 
 All of You are welcome to join the development and make CODEIT better and better.
 
+## Use with HumHub Themes Folder
+You can setup CODEIT within Your HumHub Themes folder and use it then to edit Your HumHub themes online within Your Browser.
 
 ## THANKS
 
