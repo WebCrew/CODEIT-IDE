@@ -34,7 +34,7 @@ class CODEIT_FileManager
 
 	public static $FILE_NOT_FOUND = 3;
 
-	function CODEIT_FileManager()
+	function codeitFileManager()
 		{
 		}
 
