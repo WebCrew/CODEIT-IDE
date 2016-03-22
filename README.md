@@ -29,8 +29,6 @@ Red the documentation in CODEIT/documentation/docu.html
 
 All of You are welcome to join the development and make CODEIT better and better.
 
-## Use with HumHub Themes Folder
-You can setup CODEIT within Your HumHub Themes folder and use it then to edit Your HumHub themes online within Your Browser.
 
 ## THANKS
 
