@@ -11,6 +11,11 @@ CODEIT is a simple IDE to handle Javascript, HTML, PHP , CSS, XML, LESS, SQL, MD
 Thanks to the Codemirror library developed by Marijn Haverbeke (codemirror.net)
 we have created an online IDE with everything you need for the development.  
 
+**You can find CODEIT IDE also at:**
+
+[![Download CODEIT-IDE](https://sourceforge.net/sflogo.php?type=14&group_id=2678760)](https://sourceforge.net/p/codeit-ide/)
+
+
 **Want see a demo?** 
 Visit [CODEIT IDE]  (http://web-crew.org/CODEIT/index_EN.php?)
 
