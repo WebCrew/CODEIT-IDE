@@ -1,6 +1,6 @@
 
-<a href="http://web-crew.org/">
-    <img src="http://web-crew.org/CODEIT/themes/default/images/CODEIT_logo.png" alt="CODEIT IDE logo"
+<a href="todgmbh.de">
+    <img src="http://web-crew.org/codeit/CODEIT/themes/default/images/CODEIT_logo.png" alt="CODEIT IDE logo"
          title="CODEIT 1.0 compliant" align="right" />
 </a>
 
@@ -17,7 +17,7 @@ we have created an online IDE with everything you need for the development.
 
 
 **Want see a demo?** 
-Visit [CODEIT IDE]  (http://web-crew.org/CODEIT/index_EN.php?)
+Visit [CODEIT IDE]  (http://web-crew.org/codeit/CODEIT/index_EN.php?)
 
 Login Name: Demo
 
