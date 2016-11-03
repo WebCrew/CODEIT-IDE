@@ -1,9 +1,4 @@
 
-<a href="todgmbh.de">
-    <img src="http://web-crew.org/codeit/CODEIT/themes/default/images/CODEIT_logo.png" alt="CODEIT IDE logo"
-         title="CODEIT 1.0 compliant" align="right" />
-</a>
-
 # INFORMATION
 
 CODEIT is a simple IDE to handle Javascript, HTML, PHP , CSS, XML, LESS, SQL, MD and allows you to develop HTML5 applications directly online in Your browser (best use with Google Chrome).
@@ -15,13 +10,6 @@ we have created an online IDE with everything you need for the development.
 
 [![Download CODEIT-IDE](https://sourceforge.net/sflogo.php?type=14&group_id=2678760)](https://sourceforge.net/p/codeit-ide/)
 
-
-**Want see a demo?** 
-Visit [CODEIT IDE]  (http://web-crew.org/codeit/CODEIT/index_EN.php?)
-
-Login Name: Demo
-
-Login P-Word: Demo
 
 ## REQUIREMENTS
 
