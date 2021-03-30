@@ -37,5 +37,5 @@ Andreas Holzer
 ## LICENSE
 
 AGPL V3
-Copyright (C) 2014/2016 by CODEIT / Andreas Holzer
+Copyright (C) 2014/2021 by CODEIT / Andreas Holzer
 
