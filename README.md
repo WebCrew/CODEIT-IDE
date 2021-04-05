@@ -16,7 +16,7 @@ we have created an online IDE with everything you need for the development.
 ## REQUIREMENTS
 
 CODEIT is compatible with browsers: Chrome, Safari, Firefox, Opera.
-Some features such as upload files via "drag and drop" from your computer to CODEIT File Browser, are only available for Chrome. The server portion of CODEIT was built with PHP 5.3.0. 
+Some features such as upload files via "drag and drop" from your computer to CODEIT File Browser, are only available for Chrome. The server portion of CODEIT was built with PHP 5.3.0 and is ready to work with PHP 7. 
 
 ## INSTALLATION AND OTHER INFOS
 
