@@ -1,8 +1,6 @@
 
 # INFORMATION
 
-##  Attention: due to lack of time and some new projects, I will not continue to supervise this project or provide updates. It is now up to the community to keep it up to date. Thank you for your understanding.
-
 CODEIT is a simple IDE to handle Javascript, HTML, PHP , CSS, XML, LESS, SQL, MD and allows you to develop HTML5 applications directly online in Your browser (best use with Google Chrome).
 
 Thanks to the Codemirror library developed by Marijn Haverbeke (codemirror.net)
