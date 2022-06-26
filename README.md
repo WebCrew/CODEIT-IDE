@@ -10,10 +10,13 @@ we have created an online IDE with everything you need for the development.
 
 **You can find CODEIT IDE also at:**
 
+Get it from Sourceforge:
 [![Download CODEIT-IDE](https://sourceforge.net/sflogo.php?type=14&group_id=2678760)](https://sourceforge.net/p/codeit-ide/)
 
+Get it as CODEIT-IDE for Windows:
 [![Download CODEIT-IDE for Windows](https://github.com/WebCrew/CODEIT-IDE/blob/master/xonworkslogo.png/)](https://www.onworks.net/de/software/windows/app-codeit-ide)
 
+Or get it as CODEIT-IDE for Linux:
 [![Download CODEIT-IDE for Linux](https://github.com/WebCrew/CODEIT-IDE/blob/master/xonworkslogo.png/)](https://www.onworks.net/de/software/linux/app-codeit-ide)
 
 
