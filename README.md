@@ -12,6 +12,10 @@ we have created an online IDE with everything you need for the development.
 
 [![Download CODEIT-IDE](https://sourceforge.net/sflogo.php?type=14&group_id=2678760)](https://sourceforge.net/p/codeit-ide/)
 
+[![Download CODEIT-IDEfor Windows](https://www.onworks.net/de/software/windows/app-codeit-ide/)
+
+[![Download CODEIT-IDE for Linux](https://www.onworks.net/de/software/linux/app-codeit-ide/)
+
 
 ## REQUIREMENTS
 
