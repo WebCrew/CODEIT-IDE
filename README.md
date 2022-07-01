@@ -15,8 +15,9 @@ The other IDE with my name codeit / CODEIT has nothing to do with me or that rep
 
 #### Final words
 Normally I don't do something like that and be friendly and helpful as always, but I just find it a mess and I really hate people who steal someone's name (or work) even more worse he use it for the same type of product (a IDE) and then if thats not already enough he place it right here at GitHub directly under my nose - that literally calls for a middle finger. I was wondering why the hell I was suddenly getting emails with error messages about Codeit whose source code had absolutely nothing to do with mine - then I did a search and bingo, my Codeit got a unwanted sibling.
----
 
+
+---
 Thanks to the Codemirror library developed by Marijn Haverbeke (codemirror.net)
 we have created an online IDE with everything you need for the development.  
 
