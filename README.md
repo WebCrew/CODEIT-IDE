@@ -9,8 +9,6 @@ The other IDE with my name codeit / CODEIT has nothing to do with me or that rep
 
 - I have written to him and asking very friendly with a little fun between the lines for an acceptable solution, with no reply so far. So I'll wait and see if this can be solved peacefully or if the other side reacts cheekily and impudently, but then I can also raise other sides.
 
-- One thing is fact - should he eran only one cent with that name I start to trademark it and every judge will give me the trademark right either way because that person gets the trademark name who can proofe the longest official use of that name (I use it since 2013 in my Emails to partners and since 2015 at GitHub). 
-
 - Who knows maybe I should open a post box company in the USA wait three month until I have full rights there to go to Court and sue him for damages and everyone knows that the US is very generous with the sums.
 
 #### Final words
