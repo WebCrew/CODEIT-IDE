@@ -1,11 +1,11 @@
 
 # INFORMATION
 
-CODEIT is a simple IDE to handle Javascript, HTML, PHP , CSS, XML, LESS, SQL, MD and allows you to develop HTML5 applications directly online in Your browser (best use with Google Chrome).
+CODEIT is a simple IDE to handle Javascript, HTML, PHP , CSS, XML, LESS, SQL, MD and allows you to develop HTML5 applications directly online in Your browser (best use with Google Chrome). Fork it if you want and help to update / upgrade it.
 
 ---
 ## IMPORTANT NOTE
-The other IDE with the name codeit / CODEIT has nothing to do with me or that repository here so please do not send me any emails with support requests etc. The name / which I use since 2013 got "borrowed" (not to say stolen) from a person who maybe wanted to save the mega work I did to come up with the name. The name sounds good, is easy to remember, has good SEO properties, wasn't used by anyone else at the time, is short and is a great fit for an IDE. I didn't trademark the name because I believed in fairness among coders (pretty naive I know). So I had to accept that someone else benefits from my name. It is kind of frustrating - the ugly awaits us everywhere, no safe haven anymore.
+The other IDE with the name codeit / CODEIT has nothing to do with me or that repository here so please do not send me any emails with support requests etc. The name / which I use since 2013 got "borrowed" (not to say stolen) from a person who maybe wanted to save the mega work I did to come up with the name. The name sounds good, is easy to remember, has good SEO properties, wasn't used by anyone else at the time, is short and is a great fit for an IDE. I didn't trademark the name because I believed in fairness among coders (pretty naive I know). So I had to accept that someone else benefits from my name. It is kind of frustrating - the ugly and unfair awaits us everywhere, no safe haven anymore.
 
 
 ---
